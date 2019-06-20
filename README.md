@@ -1,7 +1,7 @@
 # qiita
 
-> My premium Nuxt.js project
-
+- https://qiita.com/aytdm/items/0096e497837ec3aa8b35
+  
 ## Build Setup
 
 ``` bash

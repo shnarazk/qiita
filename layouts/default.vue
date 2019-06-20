@@ -1,8 +1,26 @@
 <template>
   <div>
+    <Header />
+    and
+    <SearchForm />
+    <SearchResult />
+    and,
     <nuxt />
+    <Footer />
   </div>
 </template>
+<script>
+import Header from '~/components/Header'
+import Footer from '~/components/Footer'
+import SearchForm from '~/components/SearchForm'
+import SearchResult from '~/components/SearchResult'
+export default {
+  Header,
+  Footer,
+  SearchForm,
+  SearchResult
+}
+</script>
 
 <style>
 html {

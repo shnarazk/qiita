@@ -14,7 +14,11 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    htmlAttrs: {
+      lang: 'ja',
+      class: 'has-navbar-fixed-top'
+    }
   },
   /*
    ** Customize the progress-bar color
@@ -24,10 +28,16 @@ export default {
    ** Global CSS
    */
   css: [],
+  styleResources: {
+    sass: [
+      'bulma/bulma.sass'
+      // '~/assets/scss/style.scss' // 読みませたいscssファイルを指定します。
+    ]
+  },
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/filters.js', ssr: false }],
   /*
    ** Nuxt.js modules
    */
