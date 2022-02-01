@@ -16,8 +16,8 @@
     "@nuxtjs/axios": "^5.9.7",
     "@nuxtjs/bulma": "^1.3.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "dayjs": "^1.10.7",
-    "nuxt": "^2.12.2"
+    "dayjs": "^1.8.23",
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.2",
